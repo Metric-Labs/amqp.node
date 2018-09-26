@@ -10,7 +10,8 @@ _MOCHA=./node_modules/.bin/_mocha
 UGLIFY=./node_modules/.bin/uglifyjs
 ISTANBUL=./node_modules/.bin/istanbul
 
-.PHONY: test test-all-nodejs all clean coverage
+#.PHONY: test test-all-nodejs all clean coverage
+.PHONY: all
 
 all: lib/defs.js
 
