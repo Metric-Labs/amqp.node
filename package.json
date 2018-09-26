@@ -28,7 +28,7 @@
   "scripts": {
     "test": "make test",
     "prepublish": "make",
-    "preinstall": "make"
+    "prepare": "make"
   },
   "keywords": ["AMQP", "AMQP 0-9-1", "RabbitMQ"],
   "author": "Michael Bridgen <mikeb@squaremobius.net>",
