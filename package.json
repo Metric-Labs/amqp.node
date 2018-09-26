@@ -27,13 +27,10 @@
   },
   "scripts": {
     "test": "make test",
-    "prepublish": "make"
+    "prepublish": "make",
+    "preinstall": "make"
   },
-  "keywords": [
-    "AMQP",
-    "AMQP 0-9-1",
-    "RabbitMQ"
-  ],
+  "keywords": ["AMQP", "AMQP 0-9-1", "RabbitMQ"],
   "author": "Michael Bridgen <mikeb@squaremobius.net>",
   "license": "MIT"
 }
